@@ -14,4 +14,3 @@ def get_news(category, api_key):
     return response.json()
 
 news_data = get_news("technology", API_NEWSAPI)
-print(news_data)
